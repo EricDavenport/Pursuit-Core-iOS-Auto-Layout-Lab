@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LabAutoLayout Q1-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LabAutoLayout Q1" id="BYZ-38-t0r" userLabel="LabAutoLayout Q1" customClass="ViewController" customModule="AutoLayoutLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IhD-GP-CPD" userLabel="Purple View">
+                                <rect key="frame" x="0.0" y="409" width="414" height="487"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4MS-Og-imb" userLabel="Teal View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4MS-Og-imb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="215-xs-wlp"/>
+                            <constraint firstAttribute="bottom" secondItem="IhD-GP-CPD" secondAttribute="bottom" id="45u-mf-cfm"/>
+                            <constraint firstItem="4MS-Og-imb" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="9QI-sd-G5v"/>
+                            <constraint firstItem="IhD-GP-CPD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hor-Qw-uxO"/>
+                            <constraint firstItem="4MS-Og-imb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UzO-ul-B64"/>
+                            <constraint firstItem="IhD-GP-CPD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aP8-Wx-K9H"/>
+                            <constraint firstItem="IhD-GP-CPD" firstAttribute="top" secondItem="4MS-Og-imb" secondAttribute="bottom" id="cPF-SC-ETJ"/>
+                            <constraint firstItem="4MS-Og-imb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qoc-kH-ncU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>
