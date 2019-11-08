@@ -42,5 +42,53 @@
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="126.5625"/>
         </scene>
+        <!--LabAutoLayout Q2-->
+        <scene sceneID="zD4-mg-f4d">
+            <objects>
+                <viewController storyboardIdentifier="LabAutoLayout Q2" id="jQZ-fd-WC6" userLabel="LabAutoLayout Q2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="34I-6c-SMr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="24t-PI-jeX">
+                                <rect key="frame" x="0.0" y="0.0" width="207" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBa-hp-96j">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="285.33333333333331"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hoS-eO-oJP">
+                                        <rect key="frame" x="0.0" y="305.33333333333337" width="207" height="285.33333333333337"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Kv-wV-Dxr">
+                                        <rect key="frame" x="0.0" y="610.66666666666663" width="207" height="285.33333333333337"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7J-fg-dw5" userLabel="Orange View">
+                                <rect key="frame" x="207" y="0.0" width="207" height="896"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="d7J-fg-dw5" firstAttribute="top" secondItem="ZHi-gZ-Iby" secondAttribute="top" constant="-44" id="0pD-aN-F47"/>
+                            <constraint firstItem="24t-PI-jeX" firstAttribute="top" secondItem="34I-6c-SMr" secondAttribute="top" id="7p4-CV-E0V"/>
+                            <constraint firstItem="d7J-fg-dw5" firstAttribute="width" secondItem="ZHi-gZ-Iby" secondAttribute="width" multiplier="0.5" id="8Ns-0K-ef0"/>
+                            <constraint firstItem="ZHi-gZ-Iby" firstAttribute="bottom" secondItem="d7J-fg-dw5" secondAttribute="bottom" constant="-34" id="E9f-Oj-12j"/>
+                            <constraint firstItem="24t-PI-jeX" firstAttribute="width" secondItem="ZHi-gZ-Iby" secondAttribute="width" multiplier="0.5" id="Jcq-as-zlO"/>
+                            <constraint firstAttribute="bottom" secondItem="24t-PI-jeX" secondAttribute="bottom" id="YL5-fC-bov"/>
+                            <constraint firstAttribute="trailing" secondItem="d7J-fg-dw5" secondAttribute="trailing" id="m8J-lS-DjH"/>
+                            <constraint firstItem="24t-PI-jeX" firstAttribute="leading" secondItem="ZHi-gZ-Iby" secondAttribute="leading" id="ppJ-Z7-ojl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZHi-gZ-Iby"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tMZ-i1-PuP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740.57971014492762" y="126.5625"/>
+        </scene>
     </scenes>
 </document>
