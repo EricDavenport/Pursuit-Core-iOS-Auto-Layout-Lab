@@ -90,5 +90,42 @@
             </objects>
             <point key="canvasLocation" x="740.57971014492762" y="126.5625"/>
         </scene>
+        <!--LabAutoLayout Q3-->
+        <scene sceneID="cfO-1v-ZeP">
+            <objects>
+                <viewController storyboardIdentifier="LabAutoLayout Q3" id="Bca-OK-rWY" userLabel="LabAutoLayout Q3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jhy-Ea-TfZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6V2-Fq-C58" userLabel="Teal View">
+                                <rect key="frame" x="0.0" y="241" width="414" height="414"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6V2-Fq-C58" secondAttribute="height" multiplier="1:1" id="hKU-wx-RUe"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWR-aO-Syw" userLabel="White View">
+                                <rect key="frame" x="103.66666666666669" y="344.66666666666669" width="207" height="207.00000000000006"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mWR-aO-Syw" firstAttribute="height" secondItem="6V2-Fq-C58" secondAttribute="height" multiplier="0.5" id="3Si-1V-5pw"/>
+                            <constraint firstItem="6V2-Fq-C58" firstAttribute="centerY" secondItem="Jhy-Ea-TfZ" secondAttribute="centerY" id="52j-Rf-Ary"/>
+                            <constraint firstItem="mWR-aO-Syw" firstAttribute="width" secondItem="6V2-Fq-C58" secondAttribute="width" multiplier="0.5" id="71B-dp-JJI"/>
+                            <constraint firstItem="mWR-aO-Syw" firstAttribute="centerX" secondItem="6V2-Fq-C58" secondAttribute="centerX" id="ayX-YG-npY"/>
+                            <constraint firstItem="mWR-aO-Syw" firstAttribute="centerY" secondItem="6V2-Fq-C58" secondAttribute="centerY" id="vEg-Pu-chn"/>
+                            <constraint firstItem="6V2-Fq-C58" firstAttribute="trailing" secondItem="X2b-XB-nVy" secondAttribute="trailing" id="vMC-ha-Q02"/>
+                            <constraint firstItem="6V2-Fq-C58" firstAttribute="leading" secondItem="X2b-XB-nVy" secondAttribute="leading" id="xNe-Ld-bnf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="X2b-XB-nVy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBu-pE-pT1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1513.0434782608697" y="126.5625"/>
+        </scene>
     </scenes>
 </document>
